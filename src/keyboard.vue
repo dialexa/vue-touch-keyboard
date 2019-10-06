@@ -234,6 +234,7 @@
 
 						default: {
 							this.$emit(key.func);
+							return;
 						}
 
 						}
